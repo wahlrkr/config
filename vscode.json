@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.fontFamily": "Fira Code",
+    "files.autoSave": "onFocusChange",
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 10,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/Users/kristianwahlroos/.local/bin/black",
+    "workbench.editor.enablePreview": false
+}
+
