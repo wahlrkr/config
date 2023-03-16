@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Kristian Wahlroos
+	email = kristian.wahlroos@yle.fi
+
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[diff]
+	colorMoved = zebra
+[core]
+	editor = vim
+	excludesfile = /Users/kristianwahlroos/.gitignore
+[apply]
+    	whitespace = fix
+
+[alias]
+	all = "!f() { ls -R -d */.git | xargs -P10 -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
